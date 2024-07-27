@@ -16,5 +16,5 @@ The dataset for Multiple Logistic regression is regarding loan_status.
 
 The Notebook Simple Linear Regression and Logistic regression contains the following:
   1) Multiple Logistic Regression model to predict if the loan_status would be approved or not using multiple independent variables.
-  2) Outliers were handled, data was upsampled, multicollinearity was addressed
-  3) The model performance/stats were calculated and displayed
+  2) Outliers were handled, data was upsampled, multicollinearity was addressed.
+  3) The model performance/stats were calculated and displayed.
