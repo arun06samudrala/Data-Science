@@ -12,3 +12,9 @@ Isolation Forest:
   3) Unwanted columns were dropped and then the data was scaled.
   4) An isolation forest alogorithm was implemented to detect and classify any anomalous transactions.
   5) The model was then evaluated using a confusion matrix, classification report and the ROC Curve, which suggests that the model was fairly competent.
+
+Collaborative Filtering:
+
+  1) This project implements a collaborative filtering recommendation system using matrix factorization. 2) The algorithm predicts user ratings for movies based on historical user-item interactions. It aims to recommend movies that users are likely to enjoy based on similar users' preferences.
+  3) The model was evaluated using the RMSE function.
+  4) Future Improvements: We could Utilize additional features like genres, experiment with different numbers of latent factors and learning rates for better performance, etc.
