@@ -23,18 +23,18 @@ This project implements a content-based filtering recommendation system that pre
 
 Hand digit recognition:
 
-Overview:
-This project focuses on recognizing hand signs representing digits (0-5) using a Convolutional Neural Network (CNN). The goal is to classify hand gestures accurately for applications like gesture-controlled systems and assistive tools.
+  1) Overview:
+              This project focuses on recognizing hand signs representing digits (0-5) using a Convolutional Neural Network (CNN). The goal is to classify hand gestures accurately for applications like gesture-controlled systems and assistive tools.
 
-Model Architecture:
-Conv2D → ReLU → MaxPooling2D → Conv2D → ReLU → MaxPooling2D → Flatten → Dense
-The CNN extracts spatial features, reduces dimensionality, and classifies digits via a fully connected layer.
+  2) Model Architecture:
+              Conv2D → ReLU → MaxPooling2D → Conv2D → ReLU → MaxPooling2D → Flatten → Dense
+              The CNN extracts spatial features, reduces dimensionality, and classifies digits via a fully connected layer.
 
-Training Details:
-Loss: Categorical Crossentropy
-Optimizer: Adam
-Metrics: Accuracy
-Input: Preprocessed and normalized hand sign images
+  3) Training Details:
+              Loss: Categorical Crossentropy
+              Optimizer: Adam 
+              Metrics: Accuracy
+              Input: Preprocessed and normalized hand sign images
 
-Results:
-Achieved and accuracy of 80%+ in classifying digits, with similar performance on unseen data using this simple model.
+  4) Results:
+              Achieved and accuracy of 80%+ in classifying digits, with similar performance on unseen data using this simple model.
