@@ -25,5 +25,3 @@ Hand Digit Recognition
   Optimizer: Adam
   Metric: Accuracy
   Input: Preprocessed and normalized hand sign images
-
-
