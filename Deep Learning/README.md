@@ -25,12 +25,3 @@ Hand Digit Recognition
   Optimizer: Adam
   Metric: Accuracy
   Input: Preprocessed and normalized hand sign images
-
-
-  Results: Achieved over 80% accuracy on both training and unseen data, demonstrating robust performance with a simple model.
-
-ResNet-50 Implementation:
-  This project implements a ResNet-50 model from scratch. The current dataset is too small for such a deep architecture, so training on a larger dataset is planned to improve performance.
-  
-U-Net for Semantic Segmentation:
-  This project builds a U-Net model from scratch and trains it on the Cityscapes dataset for semantic segmentation. The model is currently underperforming due to limited training (3 epochs). Extended training is expected to significantly improve results.
