@@ -38,3 +38,9 @@ Hand digit recognition:
 
   4) Results:
               Achieved and accuracy of 80%+ in classifying digits, with similar performance on unseen data using this simple model.
+
+Resnet_50:
+
+  Implemented a resnet 50 model from scratch. Will have to train it on a bigger dataset as the current one used is too small for such a    deep network
+
+Unet: Implemented a Unet model from scratch and trained it on a cityscape dataset. It doesn't perform well yet because it has only been        trained for 3 epochs. If trained for a longer time, it should perform way better
