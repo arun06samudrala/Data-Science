@@ -1,75 +1,142 @@
-# Data Science Portfolio
+# 🚀 Data Science Portfolio
 
-A collection of machine learning and deep learning projects covering regression, classification, clustering, recommender systems, NLP, RNNs, CNNs, and semantic segmentation.
+A curated collection of machine learning and deep learning projects covering:
+- Regression & Classification
+- Clustering & Anomaly Detection
+- Recommender Systems
+- NLP & Sequence Models
+- Computer Vision (CNNs, U-Net, ResNet)
 
-## Repository Structure
+---
 
-```text
-.
-├── projects/
-├── shared/
-├── archive/
-├── requirements.txt
-└── README.md
+# ⭐ Featured Project
 
-	•	projects/ contains the main portfolio projects
-	•	shared/ contains shared assets, utilities, and supporting files
-	•	archive/ contains older mixed or practice notebooks kept for reference
+## 🧠 U-Net Image Segmentation (Cityscapes)
 
-Projects
+Semantic segmentation model built using a U-Net architecture to classify each pixel in urban street images.
 
-Machine Learning
-	•	01_car_price_prediction
-Predicting car prices using regression
-	•	02_fuel_type_classification
-Classifying fuel type using logistic regression
-	•	03_student_score_prediction
-Predicting student performance using multiple linear regression
-	•	04_loan_approval_prediction
-Predicting loan approval using multiple logistic regression
-	•	05_employee_attrition_analysis
-Comparing models such as logistic regression and random forest for employee attrition analysis
-	•	06_customer_segmentation
-Customer segmentation using K-Means clustering
-	•	07_credit_card_fraud_detection
-Fraud detection using Isolation Forest
-	•	08_movie_recommender_collaborative
-Collaborative filtering based recommendation system
-	•	09_movie_recommender_content_based
-Content-based recommendation system
+### 🔥 Highlights
+- Implemented U-Net from scratch using TensorFlow
+- Trained on real-world Cityscapes dataset
+- Achieved:
+  - **~83% training accuracy**
+  - **~75% validation accuracy**
+- Built full pipeline:
+  - Data loading
+  - Preprocessing
+  - Model training
+  - Validation split
 
-Deep Learning / NLP / Computer Vision
-	•	10_cnn_image_classification
-CNN-based image classification
-	•	11_emojify_lstm
-Text-to-emoji prediction using embeddings / sequence modeling
-	•	12_word_vectors_similarity_debiasing
-Word vector similarity analysis and debiasing
-	•	13_rnn_lstm_sequence_models
-Sequence modeling with RNNs and LSTMs
-	•	14_unet_segmentation
-Semantic segmentation using U-Net
-	•	15_dinosaur_name_generation_rnn
-Character-level RNN for name generation
-	•	16_resnet_from_scratch
-ResNet implementation from scratch
+### 🖼️ Output
+*(Add prediction images here — highly recommended)*
 
-Tools and Libraries
+### 📁 Project Location
 
-Some projects use:
-	•	Python
-	•	NumPy
-	•	Pandas
-	•	Matplotlib
-	•	Scikit-learn
-	•	TensorFlow / Keras
+    projects/14_unet_segmentation/
 
-Notes
-	•	This repository is being reorganized into a cleaner project-based portfolio structure.
-	•	Some older mixed notebooks are stored in archive/ before being split into separate polished projects.
+---
 
-Next Improvements
-	•	Add a dedicated README.md for each project
-	•	Add sample results / plots for each project
-	•	Standardize notebook naming and documentation
-	•	Refactor reusable code into utility modules
+# 📁 Repository Structure
+
+    .
+    ├── projects/
+    ├── shared/
+    ├── archive/
+    ├── requirements.txt
+    └── README.md
+
+- `projects/` → main portfolio projects  
+- `shared/` → utilities / reusable components  
+- `archive/` → older or mixed notebooks  
+
+---
+
+# 📊 Projects
+
+## 🧮 Machine Learning
+
+- **01_car_price_prediction**  
+  Predicting car prices using regression  
+
+- **02_fuel_type_classification**  
+  Logistic regression for fuel type classification  
+
+- **03_student_score_prediction**  
+  Multiple linear regression for student performance  
+
+- **04_loan_approval_prediction**  
+  Logistic regression for loan approval  
+
+- **05_employee_attrition_analysis**  
+  Model comparison (Logistic Regression, Random Forest)  
+
+- **06_customer_segmentation**  
+  K-Means clustering  
+
+- **07_credit_card_fraud_detection**  
+  Isolation Forest anomaly detection  
+
+- **08_movie_recommender_collaborative**  
+  Collaborative filtering recommendation system  
+
+- **09_movie_recommender_content_based**  
+  Content-based recommendation system  
+
+---
+
+## 🤖 Deep Learning / NLP / Computer Vision
+
+- **10_cnn_image_classification**  
+  CNN-based image classification  
+
+- **11_emojify_lstm**  
+  Text-to-emoji prediction using embeddings  
+
+- **12_word_vectors_similarity_debiasing**  
+  Word vector similarity and debiasing  
+
+- **13_rnn_lstm_sequence_models**  
+  Sequence modeling with RNNs and LSTMs  
+
+- **14_unet_segmentation ⭐ (Featured)**  
+  Semantic segmentation using U-Net  
+
+- **15_dinosaur_name_generation_rnn**  
+  Character-level RNN for name generation  
+
+- **16_resnet_from_scratch**  
+  ResNet implementation from scratch  
+
+---
+
+# 🛠️ Tools & Libraries
+
+- Python  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Scikit-learn  
+- TensorFlow / Keras  
+
+---
+
+# 📌 Notes
+
+- Repository organized into a project-based structure  
+- Each project is being refined and documented  
+- Older exploratory notebooks are stored in `archive/`  
+
+---
+
+# 🚧 Next Improvements
+
+- Add visual outputs (plots, predictions) to each project  
+- Add detailed README per project  
+- Introduce reusable utility modules  
+- Expand deep learning projects with larger datasets  
+
+---
+
+# 💡 About This Portfolio
+
+This repository demonstrates hands-on implementation of machine learning and deep learning algorithms across multiple domains, with a focus on **end-to-end problem solving and model building**.
