@@ -28,7 +28,12 @@ Semantic segmentation model built using a U-Net architecture to classify each pi
   - Validation split
 
 ### 🖼️ Output
-*(Add prediction images here — highly recommended)*
+### 🖼️ Sample Predictions
+
+| Input | Ground Truth | Prediction |
+|------|-------------|------------|
+| ![](projects/14_unet_segmentation/outputs/input_0.png) | ![](projects/14_unet_segmentation/outputs/true_0.png) | ![](projects/14_unet_segmentation/outputs/pred_0.png) |
+| ![](projects/14_unet_segmentation/outputs/input_1.png) | ![](projects/14_unet_segmentation/outputs/true_1.png) | ![](projects/14_unet_segmentation/outputs/pred_1.png) |
 
 ### 📁 Project Location
 
