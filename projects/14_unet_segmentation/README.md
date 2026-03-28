@@ -51,7 +51,6 @@ Download from: https://www.cityscapes-dataset.com/
 - Validation Accuracy: ~75%
 - Model shows strong learning and generalization
 
-
 ---
 
 ## 🔧 Key Learnings
@@ -73,40 +72,39 @@ Download from: https://www.cityscapes-dataset.com/
 
 ## 📁 Project Structure
 
-projects/
-14_unet_segmentation/
-├── notebook.ipynb
-├── data/ (ignored in git)
-└── README.md
-
+    projects/
+      14_unet_segmentation/
+        ├── notebook.ipynb
+        ├── data/ (ignored in git)
+        └── README.md
 
 ---
 
 ## 💻 How to Run
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/arun06samudrala/Data-Science.git
-cd Data-Science
 
-2. Create virtual environment
+    git clone https://github.com/arun06samudrala/Data-Science.git
+    cd Data-Science
 
-python3 -m venv .venv
-source .venv/bin/activate
-pip install tensorflow numpy pandas matplotlib imageio
+### 2. Create a virtual environment
 
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install tensorflow numpy pandas matplotlib imageio
 
-3. Download dataset
+### 3. Download the dataset
 
-Download and extract Cityscapes dataset into:
+Download and extract the Cityscapes dataset into:
 
-projects/14_unet_segmentation/data/
+    projects/14_unet_segmentation/data/
 
-4. Run notebook
+### 4. Run the notebook
 
-Open in VS Code or Jupyter and run all cells.
+Open the notebook in VS Code or Jupyter and run all cells.
 
+---
 
-🙌 Acknowledgements
-	•	Cityscapes Dataset
-	•	U-Net architecture paper
+## 🙌 Acknowledgements
+- Cityscapes Dataset
+- U-Net architecture paper
