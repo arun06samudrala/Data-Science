@@ -34,3 +34,5 @@ data/
 # IDE
 .vscode/
 .idea/
+
+projects/14_unet_segmentation/data/
